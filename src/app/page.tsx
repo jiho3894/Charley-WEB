@@ -14,9 +14,9 @@ export default function Home() {
     };
   }, []);
   return (
-    <main className="w-full bg-white h-screen">
+    <main>
       <button onClick={() => changeText('?')}>hi</button>
-      <span className="text-black">{text}</span>
+      <span>{text}</span>
     </main>
   );
 }
